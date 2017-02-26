@@ -52,7 +52,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         task2.name = "Buy milk"
         task2.important = false
         
-        return [task1, task2]
+        let task3 = Task()
+        task3.name = "Buy some food"
+        task3.important = true
+        
+        return [task1, task2, task3]
+    }
+    
+    @IBAction func plusTapped(_ sender: AnyObject) {
+        performSegue(withIdentifier: "addSegue", sender: nil)
     }
     
 }
