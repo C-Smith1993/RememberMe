@@ -15,6 +15,7 @@
 		17A003631E62D8570066BB79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A003611E62D8570066BB79 /* LaunchScreen.storyboard */; };
 		17A0036E1E62D8580066BB79 /* Remember_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A0036D1E62D8580066BB79 /* Remember_MeTests.swift */; };
 		17A003791E62D8580066BB79 /* Remember_MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A003781E62D8580066BB79 /* Remember_MeUITests.swift */; };
+		17A003871E62DACE0066BB79 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A003861E62DACE0066BB79 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		17A003741E62D8580066BB79 /* Remember MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remember MeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A003781E62D8580066BB79 /* Remember_MeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remember_MeUITests.swift; sourceTree = "<group>"; };
 		17A0037A1E62D8580066BB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A003861E62DACE0066BB79 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				17A003551E62D8570066BB79 /* AppDelegate.swift */,
 				17A003571E62D8570066BB79 /* ViewController.swift */,
+				17A003861E62DACE0066BB79 /* Task.swift */,
 				17A003591E62D8570066BB79 /* Main.storyboard */,
 				17A0035F1E62D8570066BB79 /* Assets.xcassets */,
 				17A003611E62D8570066BB79 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17A003871E62DACE0066BB79 /* Task.swift in Sources */,
 				17A003581E62D8570066BB79 /* ViewController.swift in Sources */,
 				17A0035E1E62D8570066BB79 /* Remember_Me.xcdatamodeld in Sources */,
 				17A003561E62D8570066BB79 /* AppDelegate.swift in Sources */,
