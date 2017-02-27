@@ -36,6 +36,7 @@ class TasksViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         if task.important {
             cell.textLabel?.text = "❗️\(task.name)"
+            cell.backgroundColor = .yellow
             
         } else {
             cell.textLabel?.text = task.name
