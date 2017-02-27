@@ -17,6 +17,7 @@
 		17A003791E62D8580066BB79 /* Remember_MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A003781E62D8580066BB79 /* Remember_MeUITests.swift */; };
 		17A003871E62DACE0066BB79 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A003861E62DACE0066BB79 /* Task.swift */; };
 		17A2FCE61E635BA600BEE3CD /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A2FCE51E635BA600BEE3CD /* CreateTaskViewController.swift */; };
+		17C5C6CE1E6468AC00BAC41F /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C5C6CD1E6468AC00BAC41F /* CompleteTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		17A0037A1E62D8580066BB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17A003861E62DACE0066BB79 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		17A2FCE51E635BA600BEE3CD /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		17C5C6CD1E6468AC00BAC41F /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				17A003551E62D8570066BB79 /* AppDelegate.swift */,
 				17A003571E62D8570066BB79 /* TasksViewController.swift */,
+				17C5C6CD1E6468AC00BAC41F /* CompleteTaskViewController.swift */,
 				17A2FCE51E635BA600BEE3CD /* CreateTaskViewController.swift */,
 				17A003861E62DACE0066BB79 /* Task.swift */,
 				17A003591E62D8570066BB79 /* Main.storyboard */,
@@ -270,6 +273,7 @@
 			files = (
 				17A003871E62DACE0066BB79 /* Task.swift in Sources */,
 				17A003581E62D8570066BB79 /* TasksViewController.swift in Sources */,
+				17C5C6CE1E6468AC00BAC41F /* CompleteTaskViewController.swift in Sources */,
 				17A0035E1E62D8570066BB79 /* Remember_Me.xcdatamodeld in Sources */,
 				17A003561E62D8570066BB79 /* AppDelegate.swift in Sources */,
 				17A2FCE61E635BA600BEE3CD /* CreateTaskViewController.swift in Sources */,
